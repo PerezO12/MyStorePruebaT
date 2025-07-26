@@ -1,11 +1,10 @@
 # Tienda Online
 
-Aplicación de e-commerce desarrollada con R3. Instalar dependencias:
+Aplicación de e-commerce. Instalar dependencias:
 ```bash
 npm install
 ```
 
-4. Ejecutar en modo desarrollo: TailwindCSS.
 
 ## Tecnologías Utilizadas
 
@@ -102,7 +101,7 @@ src/
 │   ├── ui/             # Componentes básicos (Button, Input, Card)
 │   └── layout/         # Header y componentes de layout
 ├── pages/              # Páginas principales
-├── stores/             # Manejo de estado (Zustand)
+├── stores/             # Manejo de estado
 ├── services/           # Servicios API
 ├── types/              # Tipos TypeScript
 └── utils/              # Funciones utilitarias
@@ -111,7 +110,7 @@ src/
 ## Características Adicionales
 
 - Tema oscuro/claro
-- Notificaciones elegantes
+- Notificaciones
 - Validaciones de formulario completas
 - Formateo automático de campos
 - Estados de carga y error
@@ -119,7 +118,7 @@ src/
 
 ## URL de la Aplicación Desplegada
 
-[Enlace a la aplicación desplegada - Por configurar]
+https://mystorepruebat.onrender.com/
 
 ## Cumplimiento de Criterios
 
