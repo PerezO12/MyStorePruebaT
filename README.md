@@ -1,6 +1,11 @@
 # Tienda Online
 
-Aplicación de e-commerce desarrollada con React y TailwindCSS.
+Aplicación de e-commerce desarrollada con R3. Instalar dependencias:
+```bash
+npm install
+```
+
+4. Ejecutar en modo desarrollo: TailwindCSS.
 
 ## Tecnologías Utilizadas
 
@@ -54,17 +59,33 @@ git clone https://github.com/PerezO12/MyStorePruebaT.git
 cd my-storePT
 ```
 
-2. Instalar dependencias:
+2. Configurar variables de entorno:
+```bash
+cp .env.example .env
+```
+Edita el archivo `.env` si necesitas cambiar la URL de la API.
+
+3. Instalar dependencias:
 ```bash
 npm install
 ```
 
-3. Ejecutar en modo desarrollo:
+4. Ejecutar en modo desarrollo:
 ```bash
 npm run dev
 ```
 
-4. Abrir en el navegador: `http://localhost:5173`
+5. Abrir en el navegador: `http://localhost:5173`
+
+## Variables de Entorno
+
+El proyecto utiliza las siguientes variables de entorno:
+
+- `VITE_API_BASE_URL`: URL base de la API (por defecto: https://fakestoreapi.com)
+
+Para configurar:
+1. Copia `.env.example` a `.env`
+2. Modifica los valores según sea necesario
 
 ### Comandos adicionales
 

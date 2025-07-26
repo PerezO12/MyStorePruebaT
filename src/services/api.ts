@@ -1,9 +1,8 @@
 import axios from 'axios';
 import type { Product } from '../types';
 
-
 const api = axios.create({
-  baseURL: 'https://fakestoreapi.com',
+  baseURL: import.meta.env.VITE_API_BASE_URL || 'https://fakestoreapi.com',
   timeout: 10000,
   headers: {
     'Content-Type': 'application/json',
