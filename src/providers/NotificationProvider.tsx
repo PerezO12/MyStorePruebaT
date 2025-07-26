@@ -17,7 +17,7 @@ export function NotificationProvider({ children }: NotificationProviderProps) {
     
     setNotifications(prev => [...prev, newNotification]);
     
-    // Auto remove after 3 seconds
+
     setTimeout(() => {
       removeNotification(id);
     }, 3000);
@@ -31,7 +31,7 @@ export function NotificationProvider({ children }: NotificationProviderProps) {
     <NotificationContext.Provider value={{ notifications, showNotification, removeNotification }}>
       {children}
       
-      {/* Notification Container */}
+
       <div className="fixed top-4 right-4 z-50 space-y-2">
         {notifications.map((notification) => (
           <Notification
