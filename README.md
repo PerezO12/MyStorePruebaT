@@ -140,7 +140,6 @@ https://mystorepruebat.onrender.com/
 - Comunicación eficiente entre componentes
 - Validaciones y manejo de errores
 
-### Despliegue y documentación
-- Código versionado en GitHub
+### Despliegue
 - README con instrucciones claras
 - Aplicación lista para despliegue
